@@ -32,7 +32,7 @@
     "typescript": "^4.6.4"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown", //格式化
-    "src/*": "eslint --ext .js,.ts,.tsx"  //进行eslint校验
+    "**/*": "prettier --write --ignore-unknown", 
+    "pages/*": "eslint --ext .js,.ts,.tsx" 
   }
 }
