@@ -1,0 +1,48 @@
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // transform: translate(-50%, -50%);
+  // width: 230px;
+  // height: 230px;
+  font-size: 300px;
+  animation: rotate .4s infinite linear;
+  // background-color: #333;
+  // background-image: url(/1.png);
+  // background-position: center center;
+  // background-size: 100% 100%;
+  // margin: 50px auto;
+
+}
+
+@-webkit-keyframes rotate {
+
+  from {
+
+    -webkit-transform: rotate(0deg);
+
+  }
+
+  to {
+
+    -webkit-transform: rotate(360deg);
+
+  }
+
+}
+
+@keyframes rotate {
+
+  from {
+
+    -webkit-transform: rotate(0deg);
+
+  }
+
+  to {
+
+    -webkit-transform: rotate(360deg);
+
+  }
+
+}
