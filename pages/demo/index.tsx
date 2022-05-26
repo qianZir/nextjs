@@ -10,7 +10,11 @@ const index = () => {
       }
     }, 1000);
   }, [rotateDeg]);
-  return <div className={`${styles.box} iconfont`}>&#xe760;</div>;
+  return (
+    <div className={styles.container}>
+      <div className={`${styles.box}`} />
+    </div>
+  );
 };
 
 export default index;

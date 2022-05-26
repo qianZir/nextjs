@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4550956",
+      "name": "风扇",
+      "font_class": "fengkong",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5083506",
+      "name": "风扇",
+      "font_class": "fengshan",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5179182",
+      "name": "风扇",
+      "font_class": "fengshan1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "13409752",
+      "name": "风扇",
+      "font_class": "fengshan2",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "18724286",
+      "name": "汽车相关-风扇",
+      "font_class": "qichexiangguan-fengshan",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "22898788",
+      "name": "2.8通风风扇",
+      "font_class": "a-28tongfengfengshan",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
