@@ -1,7 +1,7 @@
 .container {
   position: relative;
-  width: 360px;
-  height: 360px;
+  width: 750px;
+  height: 750px;
 
   .box {
     margin: auto;
@@ -15,9 +15,9 @@
     width: 340px;
     height: 340px;
     text-align: center;
-    animation: rotate .4s infinite linear;
+    animation: rotate .3s infinite linear;
     // background-color: #333;
-    background-image: url(/p.png);
+    background-image: url(/32.png);
     background-position: center center;
     background-size: 100% 100%;
     // margin: 50px auto;

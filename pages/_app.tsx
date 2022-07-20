@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import '../styles/common.css';
 import type { AppProps } from 'next/app';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    import('amfe-flexible');
+  }, []);
   return (
     <>
       <Head>

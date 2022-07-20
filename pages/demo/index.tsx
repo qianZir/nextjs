@@ -12,7 +12,10 @@ const index = () => {
   }, [rotateDeg]);
   return (
     <div className={styles.container}>
-      <div className={`${styles.box}`} />
+      <div
+        className={`${styles.box}`}
+        style={{ animation: 'rotate .3s infinite linear' }}
+      />
     </div>
   );
 };
